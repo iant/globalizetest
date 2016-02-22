@@ -1,0 +1,10 @@
+de:
+  language: "Auf Deutsch"
+  show: "Show"
+  edit: "Bearbeiten"
+  destroy: "Löschen"  
+  new: "Neu"
+  back: "Zurück"
+  posts_header: "Beiträge"
+  posts_title_label: "Titel"
+  posts_text_label: "Text"

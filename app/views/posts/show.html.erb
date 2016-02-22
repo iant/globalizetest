@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+
+<% Post.globalize_locales.each do |locale| %>
+  <%= link_to locale, "/#{locale}/" + params[:controller] + "/" + params[:id], :class => "btn #{
+    locale == I18n.locale ? 'btn-default' : 'btn-primary'} btn-xs" %>
+<% end %> 
+
+<h1><%= t(:posts_header) %> - <%= t(:language) %> </h1>
+
+
+<p>
+  <strong><%= t(:posts_title_label) %></strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong><%= t(:posts_text_label) %></strong>
+  <%= @post.text %>
+</p>
+
+<%= link_to t(:edit), edit_post_path(@post), :class => "btn btn-primary btn-xs" %> 
+<%= link_to t(:back), posts_path, :class => "btn btn-primary btn-xs" %>

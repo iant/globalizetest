@@ -1,0 +1,10 @@
+fr:
+  language: "En Français"
+  show: "Montrer"
+  edit: "Modifier"
+  destroy: "Effacer"  
+  new: "Nouveau"
+  back: "Arrière"
+  posts_header: "Des postes"
+  posts_title_label: "Titre"
+  posts_text_label: "Texte"

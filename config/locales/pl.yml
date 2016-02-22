@@ -1,0 +1,10 @@
+pl:
+  language: "W języku Polskim"
+  show: "Pokazać"
+  edit: "Edytować"
+  destroy: "Kasować"  
+  new: "Nowy"  
+  back: "Z powrotem"
+  posts_header: "Wiadomości"
+  posts_title_label: "Tytuł"
+  posts_text_label: "Tekst"
