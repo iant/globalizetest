@@ -106,14 +106,14 @@ RSpec.describe PostsController, type: :controller do
   describe "PUT #update" do
     context "with valid params" do
       let(:new_attributes) {
-        skip("Add a hash of attributes valid for your model")
+        {title_en: "title 2", text_en: "text 2"}
+
       }
 
       it "updates the requested post" do
         post = Post.create! valid_attributes
         put :update, {:id => post.to_param, :post => new_attributes, locale: :en}, valid_session
         post.reload
-        skip("Add assertions for updated state")
       end
 
       it "assigns the requested post as @post" do

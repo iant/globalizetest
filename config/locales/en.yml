@@ -5,10 +5,13 @@ en:
   destroy: "Delete"
   new: "New"
   back: "Back"
+  save: "Save"
   posts_header: "Posts"
   posts_title_label: "Title"
   posts_text_label: "Text"
-
+  post_success_create: "Post was successfully created."
+  post_success_update: "Post was successfully updated."
+  post_success_delete: "Post was successfully deleted."
 
 
 
