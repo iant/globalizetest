@@ -9,4 +9,5 @@ class Post < ActiveRecord::Base
   validates :"text_en", presence: true
 
 
+
 end
